@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/stylecss.css">
+        <script type="text/javascript" src="script/ts.js"></script>
+    </head>
+    <body>
+        
+            <div id="homepage">
+              <button onclick="navigate()">Homepage</button>
+            </div>
+
+        <div id="userreg">
+        <input id="one" type="text" placeholder="Name"><br>
+        <input id="two"type="number" placeholder="Age"><br>
+        <input id="three" type="number" placeholder="Mobile Number"><br> 
+        <button onclick="signup()">signup</button>    
+     <label><input type="number" id="existingUserId" placeholder="User Id"><button onclick="login()">login</button></label> 
+
+        </div>
+        <div id="course">
+            <label>Available courses</label>
+            <select>
+                <option value="">C#</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Javascript</option>
+                <option>Typecript</option>
+            </select><br>
+            
+            <button onclick="enroll()">enroll courses</button>
+        </div>
+
+        
+    </body>
+</html>
